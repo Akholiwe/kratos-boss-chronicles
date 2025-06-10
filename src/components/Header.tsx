@@ -1,10 +1,15 @@
 
 import React from 'react';
 import { Sword } from 'lucide-react';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 export const Header = () => {
   return (
-    <header className="text-center py-16 bg-gradient-to-b from-amber-900/20 to-transparent">
+    <header className="text-center py-16 bg-gradient-to-b from-amber-900/20 to-transparent relative">
+      <div className="absolute top-8 right-8">
+        <ThemeToggle />
+      </div>
+      
       <div className="flex justify-center items-center mb-6">
         <Sword className="w-12 h-12 text-amber-400 mr-4" />
         <h1 className="text-6xl font-bold bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-400 bg-clip-text text-transparent">
