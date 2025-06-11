@@ -49,6 +49,13 @@ const Index = () => {
           />
           
           <GameSection
+            title={godOfWarBosses.gow2018.title}
+            subtitle={godOfWarBosses.gow2018.subtitle}
+            bosses={godOfWarBosses.gow2018.bosses}
+            gameColor={godOfWarBosses.gow2018.gameColor}
+          />
+          
+          <GameSection
             title={godOfWarBosses.ragnarok.title}
             subtitle={godOfWarBosses.ragnarok.subtitle}
             bosses={godOfWarBosses.ragnarok.bosses}

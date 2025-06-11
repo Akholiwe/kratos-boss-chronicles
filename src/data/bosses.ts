@@ -90,6 +90,16 @@ export const godOfWarBosses = {
         difficulty: "Legendary" as const
       },
       {
+        name: "Scorpion",
+        description: "A mechanical scorpion created by Hephaestus with deadly poison stingers and fire attacks.",
+        difficulty: "Medium" as const
+      },
+      {
+        name: "Cerberus Breeder",
+        description: "A massive three-headed hound that spawns smaller cerberus enemies throughout the fight.",
+        difficulty: "Hard" as const
+      },
+      {
         name: "Zeus (Final)",
         description: "The ultimate confrontation with the King of the Gods in a multi-phase epic finale.",
         difficulty: "Legendary" as const
@@ -115,6 +125,16 @@ export const godOfWarBosses = {
         name: "The Manticore",
         description: "A massive beast with a human face, lion's body, and deadly poisonous tail.",
         difficulty: "Medium" as const
+      },
+      {
+        name: "Pollux & Castor",
+        description: "The conjoined twin demigods who share immortality, requiring strategic separation to defeat.",
+        difficulty: "Hard" as const
+      },
+      {
+        name: "Hecatonchires",
+        description: "A hundred-handed giant with multiple arms capable of devastating ground-pound attacks.",
+        difficulty: "Hard" as const
       },
       {
         name: "Alecto",
@@ -150,6 +170,43 @@ export const godOfWarBosses = {
       }
     ]
   },
+  gow2018: {
+    title: "God of War (2018)",
+    subtitle: "A father and son journey through the Norse realms",
+    gameColor: "teal",
+    bosses: [
+      {
+        name: "The Stranger (Baldur)",
+        description: "The mysterious god who cannot feel pain, leading to an unforgettable first encounter.",
+        difficulty: "Hard" as const
+      },
+      {
+        name: "Magni & Modi",
+        description: "Thor's sons who hunt Kratos and Atreus with lightning powers and god-like strength.",
+        difficulty: "Hard" as const
+      },
+      {
+        name: "The Dragon",
+        description: "Fafnir, an ancient dragon corrupted by the realm tear, breathing deadly poison.",
+        difficulty: "Medium" as const
+      },
+      {
+        name: "Stone Ancient",
+        description: "A massive stone golem that hurls boulders and creates shockwave attacks.",
+        difficulty: "Medium" as const
+      },
+      {
+        name: "Sigrun",
+        description: "The Valkyrie Queen and optional superboss with the most challenging combat in the game.",
+        difficulty: "Legendary" as const
+      },
+      {
+        name: "Baldur (Final)",
+        description: "The climactic battle against the invulnerable god in a multi-stage epic confrontation.",
+        difficulty: "Legendary" as const
+      }
+    ]
+  },
   ragnarok: {
     title: "God of War Ragnarök (2022)",
     subtitle: "The Norse saga reaches its epic conclusion",
@@ -164,6 +221,16 @@ export const godOfWarBosses = {
         name: "Forest Ancient",
         description: "A massive tree-like creature defending the ancient forests with nature magic.",
         difficulty: "Medium" as const
+      },
+      {
+        name: "Nidhogg",
+        description: "The dragon that gnaws at the roots of Yggdrasil, wielding corruption and decay.",
+        difficulty: "Hard" as const
+      },
+      {
+        name: "Freya",
+        description: "The former Queen of the Valkyries seeking vengeance for her son Baldur's death.",
+        difficulty: "Hard" as const
       },
       {
         name: "Thor",
