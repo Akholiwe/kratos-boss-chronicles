@@ -1,7 +1,7 @@
-
 import React from 'react';
 import { Header } from '@/components/Header';
 import { GameSection } from '@/components/GameSection';
+import { QuotesSection } from '@/components/QuotesSection';
 import { godOfWarBosses } from '@/data/bosses';
 
 const Index = () => {
@@ -13,6 +13,8 @@ const Index = () => {
         <Header />
         
         <main className="container mx-auto px-4 pb-16">
+          <QuotesSection />
+          
           <GameSection
             title={godOfWarBosses.gow1.title}
             subtitle={godOfWarBosses.gow1.subtitle}
