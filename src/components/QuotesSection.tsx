@@ -49,6 +49,56 @@ const quotes: KratosQuote[] = [
     text: "We are gods, boy, and that comes with responsibility.",
     game: "God of War Ragnarök",
     context: "Kratos teaching Atreus about their nature"
+  },
+  {
+    text: "My vengeance ends now.",
+    game: "God of War III",
+    context: "Kratos' final confrontation with Zeus"
+  },
+  {
+    text: "The gods of Olympus have abandoned me. Now there is no hope.",
+    game: "God of War (2005)",
+    context: "Kratos' despair after being betrayed"
+  },
+  {
+    text: "I will have my revenge!",
+    game: "God of War (2005)",
+    context: "Kratos' vow against Ares"
+  },
+  {
+    text: "Close your heart to it, boy.",
+    game: "God of War (2018)",
+    context: "Teaching Atreus to suppress emotions in battle"
+  },
+  {
+    text: "You are not ready.",
+    game: "God of War (2018)",
+    context: "Kratos to Atreus about the truth"
+  },
+  {
+    text: "War is a monster. And you are right to be afraid of it.",
+    game: "God of War Ragnarök",
+    context: "Kratos reflecting on the nature of conflict"
+  },
+  {
+    text: "The past cannot be changed, boy. But we can choose what we do next.",
+    game: "God of War (2018)",
+    context: "Wisdom to Atreus about moving forward"
+  },
+  {
+    text: "I killed many who were deserving, and many who were not.",
+    game: "God of War (2018)",
+    context: "Kratos reflecting on his past"
+  },
+  {
+    text: "Zeus! Your son has returned. I bring the destruction of Olympus!",
+    game: "God of War III",
+    context: "Kratos declaring war on Olympus"
+  },
+  {
+    text: "A choice from the gods is as useless as the gods themselves.",
+    game: "God of War II",
+    context: "Kratos rejecting divine interference"
   }
 ];
 
